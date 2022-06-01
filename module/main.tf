@@ -1,6 +1,3 @@
-# Deploys ASG + ELB 
-### Please copy paste below code 
-```
 module asg {
     source = "../"
     region           = "us-east-1"
@@ -15,4 +12,3 @@ module asg {
     Name = "main"
     }
 }
-```
